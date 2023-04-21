@@ -1,0 +1,62 @@
+/* Barra de Navegacion (Navbar) */
+.navbar {
+    padding: 2rem;
+    background-image: url(/Assets/img/fondo.jpg);
+}
+
+/* Titulo */
+.titulo1 h1 {
+    color: gray;
+}
+
+.titulo2 span {
+    border-top: 3px solid black;
+}
+/* Carrusel */
+.carrusel {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.imagen-carrusel{
+    max-height: 650px;
+    width: 100%;
+}
+
+
+/* Pie de Pagina (footer) */
+footer {
+    background-image: url(/Assets/img/fondo.jpg);
+    background-size: 100%;
+
+}
+
+
+/* Adaptable (responsivo) */
+@media screen and (min-width: 992px) {
+    .navbar {
+        background-size: 25%;
+    }
+
+    .elementos-navbar {
+        margin-left: auto;
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar {
+        background-size: 50%;
+    }
+    .formulario {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        background-size: 100%;
+    }
+
+
+}
